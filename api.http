@@ -1,0 +1,28 @@
+## Create User
+
+POST http://localhost:3002/v1/users
+Content-Type: application/json
+
+{
+    "name": "Raul Inácio",
+    "email": "raulinacio@gmail.com",
+    "phone": "81919212191",
+    "password": "password12"
+}
+
+###
+
+GET http://localhost:3002/v1/users
+Content-Type: application/json
+
+
+###
+POST http://localhost:3002/v1/users
+Content-Type: application/json
+
+{
+    "name": "Helander de Castro",
+    "email": "herlanderdecastro@gmail.com",
+    "phone": "9489920212",
+    "password": "password12"
+}
